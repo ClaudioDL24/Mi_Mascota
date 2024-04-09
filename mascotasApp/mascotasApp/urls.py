@@ -22,7 +22,7 @@ from ejemplo.views import ejemplo , gato, home, contact, about
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ejemplo/', ejemplo), 
-    path('', home),
+    path('home/', home),
     path ('gato/', gato),
     path ('about/', about),
     path ('contact/', contact)	    
